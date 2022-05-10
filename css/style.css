@@ -4,6 +4,7 @@ body{
     font-size: 15px;
     color:aliceblue;
     font-weight: 700;
+    max-width:100%;
 }
 
 h3{
