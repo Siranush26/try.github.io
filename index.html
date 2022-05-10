@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>homework 25</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+<h3>Registration</h3>
+
+
+  <form >
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" class="field" name="firstname" placeholder="Your name.."  required="" >
+    <span id="name"></span>
+
+    <label for="email">Enter your email</label>
+    <input type="email" id="email" class="field" name="email" placeholder="Your email.." required="">
+    <span id="for_email"></span><br>
+
+    <label for="pwd">Password:</label>
+    <input type="password" id="pwd" class="field" name="pwd" required="">
+    <span id="pass"></span><br>
+
+    <label for="phone"> Phone number</label>
+    <input type="tel" id="phone" class="field" name="phone" required="">
+    <span id="tele"></span><br>
+    <legend >Choose your gender:</legend>
+    <div class="len">
+        
+        <label for="male">Male:</label>
+        <input type="radio" name="gender" id="male" value="male" checked>
+        <label for="female">Female:</label>
+        <input type="radio" name="gender" id="female" value="female">
+        <label for="other">Other:</label>
+        <input type="radio" name="gender" id="other" value="other">
+    </div><br>
+    <label for="language">Language</label>
+    <select type="text" id="language" name="select language">
+      <option value="English">English</option>
+      <option value="Armenian">Armenian</option>
+      <option value="Russian">Russian</option>
+    </select>
+    <label>ZIP Code</label>
+    <input type="text" pattern="[0-9]{5}" title="Five digit zip code" id="zip" class="field" required=""/>
+    <span id="try"></span>
+
+    <label for="about">About</label>
+    <input type="text" id="about" class="field" placeholder="write about yourself..." required=""/>
+    <span id="for_about"></span>
+  
+    <button type="submit" value="Submit" id="button" onclick="validateForm()" >Register</button>
+  </form>
+
+<script src="./js/script.js"></script>
+</body>
+</html>

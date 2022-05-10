@@ -1,0 +1,82 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    background: linear-gradient(#cc66ff, #9999ff, #cc66ff, #9999ff);
+    font-size: 15px;
+    color:aliceblue;
+    font-weight: 700;
+}
+
+h3{
+    font-size: 25px;
+    text-align: center;
+}
+
+form{
+    width:50%;
+    margin:auto;
+   
+    
+}
+
+input, select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 50px, 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-image: linear-gradient(to right, pink, #cc99ff);
+  }
+
+select{
+    font-family: 'Montserrat', sans-serif;
+    color:#ff4d94;
+    font-weight: 700;
+}
+
+  #tel{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px, 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; 
+  }
+  
+  button {
+    width: 30%;
+    height:35px;
+    background-color: #cc66ff;
+    color: white;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 700;
+    margin-left:230px;
+  }
+  
+  button:hover {
+    background-color:#b366ff ;
+  }
+  
+  div {
+    border-radius: 5px;
+    
+    
+   
+  }
+
+  .len{
+      display:flex;
+      margin-left: 150px;
+      margin-right: 150px;
+  }
+
+  #about{
+    padding: 30px 20px;
+    margin: 8px, 0;
+  }
